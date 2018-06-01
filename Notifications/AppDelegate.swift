@@ -111,18 +111,18 @@ extension AppDelegate: UNUserNotificationCenterDelegate
     }
 }
 
-
 /*
- {
-     "aps": {
-         "alert": {
-             "title": "Invitation",
-             "subtitle": "25th Anniversary",
-             "body": "You are invited."
-         },
-         "category": "INVITATION",
-         "sound": "default",
-         "content-available": 1
-     }
- }
+{
+    "aps": {
+        "alert": {
+            "title": "Invitation",
+            "subtitle": "This is a Remote Notification.",
+            "body": "You are invited."
+        },
+        "category": "INVITATION",
+        "sound": "default",
+        "content-available": 1,
+        "mutable-content": 1
+    }
+}
  */

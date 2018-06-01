@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0CC34D20C1192E00E880FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFE9BA920B9923700763343 /* Assets.xcassets */; };
 		DF79F73E20BB1CAF0024CF5F /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF79F73D20BB1CAF0024CF5F /* UserNotifications.framework */; };
 		DF79F74020BB1CAF0024CF5F /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF79F73F20BB1CAF0024CF5F /* UserNotificationsUI.framework */; };
 		DF79F74320BB1CAF0024CF5F /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79F74220BB1CAF0024CF5F /* NotificationViewController.swift */; };
@@ -274,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0CC34D20C1192E00E880FE /* Assets.xcassets in Resources */,
 				DF79F74620BB1CAF0024CF5F /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,8 +423,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pdiosdev.apns.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "883a9d70-61c3-4bea-a020-4521d28a8518";
-				PROVISIONING_PROFILE_SPECIFIER = Notification;
+				PROVISIONING_PROFILE = "34c702d1-5cb4-435b-bff3-189b7aa4c9e5";
+				PROVISIONING_PROFILE_SPECIFIER = "Notification Service Extension";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,8 +444,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pdiosdev.apns.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "883a9d70-61c3-4bea-a020-4521d28a8518";
-				PROVISIONING_PROFILE_SPECIFIER = Notification;
+				PROVISIONING_PROFILE = "34c702d1-5cb4-435b-bff3-189b7aa4c9e5";
+				PROVISIONING_PROFILE_SPECIFIER = "Notification Service Extension";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -579,7 +581,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pdiosdev.apns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ad5bdd0d-7d94-4e92-b6b4-d7faf6963be5";
+				PROVISIONING_PROFILE = "bcc1c224-0f8c-40a7-b84c-5766f9c8108e";
 				PROVISIONING_PROFILE_SPECIFIER = Development;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
