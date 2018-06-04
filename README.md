@@ -1,4 +1,4 @@
-# Notifications
+# iOS-10 Notifications - All in One
 
 Notifications is a way to inform users when new data becomes available for the app, even when the app is not running in the foreground.
 
